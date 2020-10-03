@@ -114,3 +114,10 @@ p {
     min-width: 20px;
     margin: 40px auto;
 }
+
+
+ @media (max-width: 759px){
+    .two, .three {
+        display: none;
+    }
+} 
