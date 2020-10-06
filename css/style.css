@@ -31,6 +31,91 @@
     color: #F25094;
 }
 
+
+/*Credentials Section*/
+#testimonials {
+    padding: 40px 0;
+    background-color: #e5e5e5;
+}
+
+#testimonials h2 {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 60px;
+    text-align: center;
+    color: #000000;
+    margin: 20px 40px 40px 40px;
+}
+#cred {
+    justify-content: center !important;
+}
+
+.box {
+    background: #DEEFB7;
+    padding: 30px;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+svg, p, .author {
+    margin: 30px 0;
+}
+
+svg {margin-top: 10px;}
+
+.author {
+    display: flex;
+    min-height: 5px;
+    align-items: center;
+}
+
+.author-name small {
+    display: block;
+font-style: normal;
+font-weight: bold;
+font-size: 14px;
+line-height: 16px;
+/* identical to box height */
+
+
+color: #B2B3B7;
+}
+
+.author-name {margin-left: 20px;}
+
+p {
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #252525;
+}
+
+.client {
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    display: block;
+    color: #F25094;
+}
+
+.numbers{
+    display: block;
+    min-width: 20px;
+    margin: 40px auto;
+}
+
+/*Home CSS*/
 .banner{
 	background-color: #2D2E79;
 	text-align: center;
@@ -70,6 +155,7 @@
     color: #F25094 !important;
     text-transform: uppercase;
     margin-top: 10px;
+    text-align: center;
 }
 
 .btn-banner{
